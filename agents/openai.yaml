@@ -1,0 +1,14 @@
+interface:
+  display_name: 白底产品图生成场景与模特图
+  short_description: 根据白底图生成场景与模特图，保留产品细节；提供尺寸时第六张生成白底尺寸图
+  default_prompt: 使用 $hm-images-generate 根据我上传的白底产品图生成 6 张独立图片，保持产品颜色、形状、比例和扣型；若我提供尺寸，第
+    6 张以原始白底图为基础生成尺寸图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
